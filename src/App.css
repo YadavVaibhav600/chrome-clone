@@ -1,0 +1,274 @@
+.chr-non-chrome-hero__logo {
+    width: 80px;
+  margin-bottom: 5px;
+    
+}
+
+
+
+.hero-title{
+  margin : 0; 
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.1;
+  
+
+}
+
+
+
+
+.browser-heading{
+  display : inline-block;
+  padding-left : 50px; 
+}
+
+
+.hero{
+  /* we need to centalize everythign */
+  display : flex;
+  flex-direction: column;
+  /* justify-content : center; */
+  align-items : center; 
+  padding-top : 50px; 
+  /* gap : 5px; */
+}
+
+
+
+.hero-cta{
+  margin-top : 20px; 
+	/* background-color: #185abc; */
+  background-color : #1a73e8; 
+  width : 250px; 
+
+  
+	border-radius: 32px;
+	align-items: center;
+	border-radius: 24px;
+	cursor: pointer;
+	/* display: inline-flex; */
+	padding: 12px 24px;
+	position: relative;
+	white-space: nowrap;
+}
+.hero-cta:hover{
+  background-color: #185abc;;
+}
+
+.hero-cta-text{
+color : white;
+font-weight : 500;
+line-height : 1.5rem;
+font-size : 1.125rem;
+
+}
+
+
+.hero-meta {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #5f6368;
+}
+
+
+.chrome-terms-of-service{
+  font-family: "Google Sans Text",arial,sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.009375rem;
+  color: #5f6368;
+
+}
+
+
+.feature-scroll {
+  margin-top : 100px; 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Give it space to scroll */
+  overflow: visible; /* Hide text if it goes too far down */
+}
+
+
+
+
+
+.feature-heading {
+  position: relative;
+  z-index: 1; /* Text sits BEHIND image */
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: -100px; /* Pull text underneath the image slightly */
+  /* color: #333; */
+}
+
+
+.feature-media-section {
+  position: relative;
+  width: 70%;
+  /* max-width: 1400px; Or whatever your full width is */
+  height: auto;      /* Fixed height keeps it stable */
+  margin: 0 auto;
+  z-index: 2;
+  /* Ensure no overflow initially */
+  overflow: hidden; 
+  display : flex;
+  justify-content: center;
+  transform-origin : bottom left; 
+  border-radius: 20px;
+   border : 2px solid red; 
+}
+
+.feature-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Center it normally */
+  object-position: center center; 
+  display: block;
+  border-radius : 20px;
+ 
+}
+
+/* Ensure text is positioned correctly */
+.feature-text-section {
+  position: absolute;
+  top: 20%; 
+  left: 10%; 
+  width: 35%;
+  z-index: 1;
+  opacity: 0; 
+  visibility: hidden;
+}
+
+
+
+
+.feature-text-section-heading{
+
+
+}
+
+
+.feature-text-section-content{
+
+  font-family: "Google Sans Text",arial,sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.009375rem;
+  color: #5f6368;
+
+
+}
+
+
+
+.experience-container{
+  display : flex;
+  justify-content: start;
+  flex-direction: row;
+  
+
+}
+
+.experience-image-section
+{
+  position : relative;
+}
+
+
+.experience-section-img-1{
+  height : 80px;
+  width : 80px;
+  position : absolute;
+  z-index: 2;
+  top: -10px;
+  right: 121px;
+}
+
+.experience-section-img-2{
+  height : 80px;
+  width : 80px; 
+  position : relative; 
+  top : 120px;
+  left : -30px; 
+
+
+}
+
+.experience-section-img-3{
+  height : 80px;
+  width : 80px;
+  position : relative;  
+  bottom : -600px;
+  left : -40px; 
+
+}
+
+.experience-section-img-4{
+  height : 80px;
+  width : 80px;
+  position : relative; 
+  bottom : -600px; 
+  left : 600px; 
+}
+
+.experience-section-img-5{
+  height : 80px;
+  width : 80px ;
+  position : relative;
+  top : 200px;
+  right : -500px;  
+
+}
+
+.experience-section-img-main{
+  width : 800px;
+  height : auto;  
+}
+
+
+
+.experience-content{
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Side card styling for Phase 3 */
+.feature-side-card {
+  position: fixed;
+  top: 20%;
+  right: 8%;
+  width: 350px;
+  background-color: #fef3c7;
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  z-index: 3;
+  opacity: 0;
+}
+
+.feature-side-card h3 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 1rem 0;
+}
+
+.feature-side-card p {
+  color: #374151;
+  line-height: 1.625;
+  margin: 0;
+  font-family: "Google Sans Text", arial, sans-serif;
+  font-size: 0.875rem;
+}
