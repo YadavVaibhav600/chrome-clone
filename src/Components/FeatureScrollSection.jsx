@@ -17,7 +17,7 @@ function ScrollSection() {
       
       // Set initial states
       gsap.set(textRef.current, { opacity: 0, visibility: "hidden" });
-      gsap.set(sideCardRef.current, { opacity: 0, x: 50 });
+      // gsap.set(sideCardRef.current, { opacity: 0, x: 50 });
 
       // PHASE 1: Heading moves up, video width grows (pinned)
       const phase1Timeline = gsap.timeline({

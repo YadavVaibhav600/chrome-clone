@@ -122,7 +122,7 @@ font-size : 1.125rem;
   justify-content: center;
   transform-origin : bottom left; 
   border-radius: 20px;
-   border : 2px solid red; 
+   /* border : 2px solid red;  */
 }
 
 .feature-video {
@@ -185,7 +185,7 @@ font-size : 1.125rem;
 
 
 .experience-section-img-1{
-  height : 80px;
+  height : auto;
   width : 80px;
   position : absolute;
   z-index: 2;
@@ -194,7 +194,7 @@ font-size : 1.125rem;
 }
 
 .experience-section-img-2{
-  height : 80px;
+  height : auto;
   width : 80px; 
   position : relative; 
   top : 120px;
@@ -204,7 +204,7 @@ font-size : 1.125rem;
 }
 
 .experience-section-img-3{
-  height : 80px;
+  height : auto;
   width : 80px;
   position : relative;  
   bottom : -600px;
@@ -213,7 +213,7 @@ font-size : 1.125rem;
 }
 
 .experience-section-img-4{
-  height : 80px;
+  height : auto;
   width : 80px;
   position : relative; 
   bottom : -600px; 
@@ -221,7 +221,7 @@ font-size : 1.125rem;
 }
 
 .experience-section-img-5{
-  height : 80px;
+  height :auto;
   width : 80px ;
   position : relative;
   top : 200px;

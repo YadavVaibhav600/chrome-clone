@@ -1,6 +1,6 @@
 import React from "react";
-import gsap from "gsap";  
-import { useEffect } from "react";
+// import gsap from "gsap";  
+// import { useEffect } from "react";
 import { MdFileDownload } from "react-icons/md";
 
 

@@ -17,8 +17,8 @@ function ExtendExperience() {
     const container = ImgContRef.current;
     const mainImg = mainImgRef.current;
     
-    // Get the position of the main image for calculations
-    const mainImgRect = mainImg.getBoundingClientRect();
+    // // Get the position of the main image for calculations
+    // const mainImgRect = mainImg.getBoundingClientRect();
     
     // Icon refs array for easier iteration
     // NEGATIVE values move left/up, POSITIVE values move right/down
@@ -65,7 +65,7 @@ function ExtendExperience() {
       <section className="experience-container">
         <div className="experience-content">
           <h1 className="experience-content-heading">Extend Your Experience</h1>
-          <p className="experience-content-text" style={{ paddingLeft: "50px" }}>
+          <p className="experience-content-text" style={{ paddingLeft: "50px"}}>
             From shopping and entertainment to productivity, find extensions to improve your experience in the Chrome Web Store.
           </p>
         </div>
